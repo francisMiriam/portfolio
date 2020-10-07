@@ -1,0 +1,20 @@
+.inhalt {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:10em auto;
+    position: absolute;
+   
+}
+
+.color{
+
+}
+
+.map {
+   grid-column: 1/-1;
+}
+.icon{
+ align-self: center;
+}

@@ -1,0 +1,62 @@
+
+html {
+  font-family:Helvetica, Verdana, Sans-Serif;
+}
+
+body{
+  background-image: url("../p/background.png");
+  background-size: cover;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+  margin: 5vw;
+  line-height: 1.4;
+}
+
+body,
+.center {
+display: block;
+margin: auto;
+width: auto;
+max-width: 97vh;
+        }
+
+
+.color {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #525150;
+  padding: 1em;  
+}
+
+.header{
+  font-size: 4em;
+  line-height: 1.5;
+  padding-top: 1em;
+}
+
+.header__logo{
+  height: 3.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+
+.text{
+  font-size: 1.4em;
+}
+
+.text span{
+  font-size: 2em;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: #e67a0e;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 50%;
+  }
+}
