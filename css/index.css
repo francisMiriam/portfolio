@@ -1,20 +1,16 @@
+
+@import "./basic.css";
+
 .inhalt {
+  height: 100%;
+  position: absolute;
+}
+/* .pattern{
     height: 100%;
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:10em auto;
-    position: absolute;
-   
-}
-
-.color{
-
-}
-
-.map {
-   grid-column: 1/-1;
-}
-.icon{
- align-self: center;
-}
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAN0lEQVQYlWN4+Ojx/4ePHv9nIASIVogNlFc2/y+vbCasmWiFWMGEBcv/T1iwnLBuohViA/QJMgAkiTJJpIIvBAAAAABJRU5ErkJggg==) repeat;
+    grid-column: 1;
+    grid-row: 2;
+} */
+ul{
+    list-style-image: url('../p/x.png');
+  }
